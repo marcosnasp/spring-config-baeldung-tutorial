@@ -15,3 +15,7 @@ For client execution, use delivery-config-client:
 ```console
 gradle clean build && java -jar build\libs\delivery-config-client-0.0.1-SNAPSHOT.jar
 ```
+
+Link tutorial: 
+
+[https://www.baeldung.com/spring-cloud-configuration]
