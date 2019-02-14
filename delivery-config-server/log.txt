@@ -1,0 +1,143 @@
+D:\Desenv\git_repos\github\spring-config-baeldung-tutorial\delivery-config-server>gradle clean build && java -jar build\libs\delivery-config-server-0.0.1-SNAPSHOT.jar
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 4 executed
+2019-02-14 17:59:16.465  INFO 3216 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@75d4a5c2: startup dat
+e [Thu Feb 14 17:59:16 GFT 2019]; root of context hierarchy
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1 (jar:file:/D:/Desenv/git_repos/github/spring-config-baeldung-tutorial/delivery-config-server/build/libs/delivery-config-se
+rver-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-core-5.0.8.RELEASE.jar!/) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2019-02-14 17:59:16.675  INFO 3216 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.C
+onfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5f7b0405] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.4.RELEASE)
+
+2019-02-14 17:59:18.715  INFO 3216 --- [           main] c.e.m.d.DeliveryConfigServerApplication  : No active profile set, falling back to default profiles: default
+2019-02-14 17:59:18.715  INFO 3216 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext
+@7dfd3c81: startup date [Thu Feb 14 17:59:18 GFT 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@75d4a5c2
+2019-02-14 17:59:19.448  INFO 3216 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=97e551e2-ebd8-3731-bdb1-bd704a6daea2
+2019-02-14 17:59:19.517  INFO 3216 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [o
+rg.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5f7b0405] is not eligible for getting processed by all BeanPostProcessors (for example: not el
+igible for auto-proxying)
+2019-02-14 17:59:21.087  INFO 3216 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2019-02-14 17:59:21.103  INFO 3216 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-14 17:59:21.103  INFO 3216 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-02-14 17:59:21.120  INFO 3216 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was
+ not found on the java.library.path: [C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Prog
+ram Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Manageme
+nt Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management En
+gine Components\IPT;C:\Program Files\PuTTY\;C:\Program Files\Dell\Dell Data Protection\Encryption\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;D:\Desenv\Software\gradle-4.10.2\bin;D:\Des
+env\Software\apache-maven-3.5.4-bin\bin;C:\Program Files\Java\jdk-11\bin;D:\Desenv\Software\scala-2.12.6\bin;C:\Users\Marcos Portela\AppData\Local\Programs\Python\Python37;C:\Users\Marcos Portela\AppData\Lo
+cal\Programs\Python\Python37\Scripts;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Dart\dart-sdk\bin;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Fi
+les\TortoiseSVN\bin;C:\Users\Marcos Portela\AppData\Roaming\Pub\Cache\bin;C:\Program Files\pg10\bin;C:\WINDOWS\System32\OpenSSH\;D:\Desenv\Software\apache-ant-1.10.5-bin\bin;C:\Program Files\Cloud Foundry;D
+:\Desenv\Software\treinamento_redhat\minishift-1.30.0-windows-amd64;C:\HashiCorp\Vagrant\bin;C:\ProgramData\chocolatey\bin;D:\Desenv\Software\vault_1.0.2_windows_amd64;D:\Desenv\Software\apache-thrift-0.12.
+0-bin;C:\Users\Marcos Portela\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Docker Toolbox;C:\Users\Marcos Portela
+\AppData\Local\atom\bin;C:\Users\Marcos Portela\AppData\Local\hyper\app-2.1.2\resources\bin;.]
+2019-02-14 17:59:21.182  INFO 3216 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-14 17:59:21.182  INFO 3216 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2467 ms
+2019-02-14 17:59:25.208  INFO 3216 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-02-14 17:59:25.208  INFO 3216 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-02-14 17:59:25.208  INFO 3216 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-02-14 17:59:25.208  INFO 3216 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-02-14 17:59:25.208  INFO 3216 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-02-14 17:59:25.208  INFO 3216 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-02-14 17:59:25.208  INFO 3216 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-02-14 17:59:25.296  INFO 3216 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.Res
+ourceHttpRequestHandler]
+2019-02-14 17:59:25.476  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServ
+erApplicationContext@7dfd3c81: startup date [Thu Feb 14 17:59:18 GFT 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@75d4a5c2
+2019-02-14 17:59:25.553  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, ja
+va.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-02-14 17:59:25.556  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.spri
+ngframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-02-14 17:59:25.566  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/encrypt/status],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> o
+rg.springframework.cloud.config.server.encryption.EncryptionController.status()
+2019-02-14 17:59:25.566  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/key/{name}/{profiles}],methods=[GET]}" onto public java.lang.String org.springframework.cloud.c
+onfig.server.encryption.EncryptionController.getPublicKey(java.lang.String,java.lang.String)
+2019-02-14 17:59:25.567  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/key],methods=[GET]}" onto public java.lang.String org.springframework.cloud.config.server.encry
+ption.EncryptionController.getPublicKey()
+2019-02-14 17:59:25.568  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/encrypt],methods=[POST]}" onto public java.lang.String org.springframework.cloud.config.server.
+encryption.EncryptionController.encrypt(java.lang.String,org.springframework.http.MediaType)
+2019-02-14 17:59:25.568  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/encrypt/{name}/{profiles}],methods=[POST]}" onto public java.lang.String org.springframework.cl
+oud.config.server.encryption.EncryptionController.encrypt(java.lang.String,java.lang.String,java.lang.String,org.springframework.http.MediaType)
+2019-02-14 17:59:25.569  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/decrypt],methods=[POST]}" onto public java.lang.String org.springframework.cloud.config.server.
+encryption.EncryptionController.decrypt(java.lang.String,org.springframework.http.MediaType)
+2019-02-14 17:59:25.570  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/decrypt/{name}/{profiles}],methods=[POST]}" onto public java.lang.String org.springframework.cl
+oud.config.server.encryption.EncryptionController.decrypt(java.lang.String,java.lang.String,java.lang.String,org.springframework.http.MediaType)
+2019-02-14 17:59:25.571  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{name}-{profiles}.properties],methods=[GET]}" onto public org.springframework.http.ResponseEnti
+ty<java.lang.String> org.springframework.cloud.config.server.environment.EnvironmentController.properties(java.lang.String,java.lang.String,boolean) throws java.io.IOException
+2019-02-14 17:59:25.571  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{name}-{profiles}.yml || /{name}-{profiles}.yaml],methods=[GET]}" onto public org.springframewo
+rk.http.ResponseEntity<java.lang.String> org.springframework.cloud.config.server.environment.EnvironmentController.yaml(java.lang.String,java.lang.String,boolean) throws java.lang.Exception
+2019-02-14 17:59:25.571  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{label}/{name}-{profiles}.json],methods=[GET]}" onto public org.springframework.http.ResponseEn
+tity<java.lang.String> org.springframework.cloud.config.server.environment.EnvironmentController.labelledJsonProperties(java.lang.String,java.lang.String,java.lang.String,boolean) throws java.lang.Exception
+
+2019-02-14 17:59:25.571  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{name}/{profiles:.*[^-].*}],methods=[GET]}" onto public org.springframework.cloud.config.enviro
+nment.Environment org.springframework.cloud.config.server.environment.EnvironmentController.defaultLabel(java.lang.String,java.lang.String)
+2019-02-14 17:59:25.571  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{label}/{name}-{profiles}.yml || /{label}/{name}-{profiles}.yaml],methods=[GET]}" onto public o
+rg.springframework.http.ResponseEntity<java.lang.String> org.springframework.cloud.config.server.environment.EnvironmentController.labelledYaml(java.lang.String,java.lang.String,java.lang.String,boolean) th
+rows java.lang.Exception
+2019-02-14 17:59:25.571  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{name}-{profiles}.json],methods=[GET]}" onto public org.springframework.http.ResponseEntity<jav
+a.lang.String> org.springframework.cloud.config.server.environment.EnvironmentController.jsonProperties(java.lang.String,java.lang.String,boolean) throws java.lang.Exception
+2019-02-14 17:59:25.571  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{name}/{profiles}/{label:.*}],methods=[GET]}" onto public org.springframework.cloud.config.envi
+ronment.Environment org.springframework.cloud.config.server.environment.EnvironmentController.labelled(java.lang.String,java.lang.String,java.lang.String)
+2019-02-14 17:59:25.571  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{label}/{name}-{profiles}.properties],methods=[GET]}" onto public org.springframework.http.Resp
+onseEntity<java.lang.String> org.springframework.cloud.config.server.environment.EnvironmentController.labelledProperties(java.lang.String,java.lang.String,java.lang.String,boolean) throws java.io.IOExcepti
+on
+2019-02-14 17:59:25.586  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{name}/{profile}/{label}/**],methods=[GET],produces=[application/octet-stream]}" onto public sy
+nchronized byte[] org.springframework.cloud.config.server.resource.ResourceController.binary(java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest) throws java.io.IOExcept
+ion
+2019-02-14 17:59:25.586  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{name}/{profile}/{label}/**],methods=[GET]}" onto public java.lang.String org.springframework.c
+loud.config.server.resource.ResourceController.retrieve(java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,boolean) throws java.io.IOException
+2019-02-14 17:59:25.586  INFO 3216 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{name}/{profile}/**],methods=[GET],params=[useDefaultLabel]}" onto public java.lang.String org.
+springframework.cloud.config.server.resource.ResourceController.retrieve(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,boolean) throws java.io.IOException
+2019-02-14 17:59:25.618  INFO 3216 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.Resourc
+eHttpRequestHandler]
+2019-02-14 17:59:25.618  INFO 3216 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpReq
+uestHandler]
+2019-02-14 17:59:27.928  INFO 3216 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-14 17:59:27.934  INFO 3216 --- [           main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || applic
+ation/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.
+Map<java.lang.String, java.lang.String>)
+2019-02-14 17:59:27.934  INFO 3216 --- [           main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || applicat
+ion/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Ma
+p<java.lang.String, java.lang.String>)
+2019-02-14 17:59:27.934  INFO 3216 --- [           main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/j
+son]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpoin
+tHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-02-14 17:59:27.965  INFO 3216 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-02-14 17:59:27.996  INFO 3216 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-02-14 17:59:27.996  INFO 3216 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-02-14 17:59:27.996  INFO 3216 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-02-14 17:59:27.996  INFO 3216 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud
+.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-02-14 17:59:27.996  INFO 3216 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.conte
+xt.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-02-14 17:59:28.012  INFO 3216 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springfr
+amework.cloud.context.properties:name=configurationPropertiesRebinder,context=7dfd3c81,type=ConfigurationPropertiesRebinder]
+2019-02-14 17:59:28.066  INFO 3216 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2019-02-14 17:59:28.071  INFO 3216 --- [           main] c.e.m.d.DeliveryConfigServerApplication  : Started DeliveryConfigServerApplication in 14.049 seconds (JVM running for 14.616)
+2019-02-14 17:59:33.380  INFO 3216 --- [nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-02-14 17:59:33.380  INFO 3216 --- [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-02-14 17:59:33.396  INFO 3216 --- [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2019-02-14 17:59:36.165  INFO 3216 --- [nio-9090-exec-1] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7e801b3: startup date
+ [Thu Feb 14 17:59:36 GFT 2019]; root of context hierarchy
+2019-02-14 17:59:36.211  INFO 3216 --- [nio-9090-exec-1] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/C:/Users/Marcos%20Portela/AppData/Local/Temp/config-repo-1264727271580133146
+0/config-client-development.properties
+2019-02-14 17:59:36.211  INFO 3216 --- [nio-9090-exec-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7e801b3: startup date [T
+hu Feb 14 17:59:36 GFT 2019]; root of context hierarchy
+2019-02-14 18:00:20.821  INFO 3216 --- [nio-9090-exec-3] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6442ebbf: startup dat
+e [Thu Feb 14 18:00:20 GFT 2019]; root of context hierarchy
+2019-02-14 18:00:20.821  INFO 3216 --- [nio-9090-exec-3] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: file:/C:/Users/Marcos%20Portela/AppData/Local/Temp/config-repo-1264727271580133146
+0/config-client-development.properties
+2019-02-14 18:00:20.821  INFO 3216 --- [nio-9090-exec-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6442ebbf: startup date [
+Thu Feb 14 18:00:20 GFT 2019]; root of context hierarchy
+
